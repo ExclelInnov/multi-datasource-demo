@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: multi-datasource-demo
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+#server:
+#  servlet:
+#    context-path: /edu/datasource/multi
